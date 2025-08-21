@@ -11,7 +11,7 @@
   minAge: 60
   youngAge: 150
   oldAge: 400
-  maxAge: 666
+  maxAge: 669 # Wyattstation - What the fuck
 
 - type: markingPoints
   id: MobArachneMarkingLimits
