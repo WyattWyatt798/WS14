@@ -5,9 +5,9 @@
   description: Highly advanced pair of gloves meant for a special task force employed by Nanotrasen. Feels kind of heavy for a pair of gloves.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/powerglove.rsi
+    sprite: _Wyatt/Clothing/Hands/Gloves/specop.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/powerglove.rsi
+    sprite: _Wyatt/Clothing/Hands/Gloves/specop.rsi
   - type: FingerprintMask
   - type: Insulated
   - type: Tag
