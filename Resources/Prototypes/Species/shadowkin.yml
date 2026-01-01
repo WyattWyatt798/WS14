@@ -1,7 +1,7 @@
 - type: species
   id: Shadowkin
   name: species-name-shadowkin
-  roundStart: true
+  roundStart: false # Not comfortable with the sprites coming from an ERP fetish-containing server so this ought to go.
   prototype: MobShadowkin
   sprites: MobShadowkinSprites
   defaultSkinTone: "#FFFFFF"
