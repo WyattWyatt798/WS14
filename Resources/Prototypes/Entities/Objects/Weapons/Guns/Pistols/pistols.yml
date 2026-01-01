@@ -154,7 +154,7 @@
   name: viper
   parent: WeaponPistolViper
   id: WeaponPistolViperSecurity
-  description: "A small, easily concealable, but somewhat underpowered gun. Uses .35 auto ammo. While typically seen as the standard-issue sidearm issued by the three serpents, it would appear a NanoTrasen security officer owns this one.
+  description: A small, easily concealable, but somewhat underpowered gun. Uses .35 auto ammo. While typically seen as the standard-issue sidearm for the Syndicate, there appears to be a NanoTrasen logo next to this one's serial number.
   suffix: Security Loadouts
   components:
   - type: GuideHelp
@@ -323,7 +323,7 @@
   name: mk 58
   parent: WeaponPistolMk58
   id: WeaponPistolMk58Security
-  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo. #Wyattstation change. It's a fucking MK58. MK58s are probably considered dogshit by almost everyone so it's painfully obvious that a Mk58 is a security weapon. Ok tedtalk over
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo. #Atlas 14 change. It's a fucking MK58. MK58s are probably considered dogshit by almost everyone apparently so it's painfully obvious that a Mk58 is a security weapon. Ok tedtalk over
   suffix: Security Loadouts
   components:
   - type: GuideHelp
