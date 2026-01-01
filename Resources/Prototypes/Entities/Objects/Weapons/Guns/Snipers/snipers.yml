@@ -61,7 +61,7 @@
   name: Kardashev-Mosin
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponSniperMosin
-  description: Produced almost exclusively by the Syndicate based off of old Solarian designs. It excels at hunting and taking down wild animals, or perhaps fighting an endless trench war. Also comes with a bayonet.
+  description: Produced almost exclusively by the Syndicate based off of old Solarian designs, firing .30 rifle rounds. It excels at hunting and taking down wild animals, or perhaps fighting an endless trench war. Also comes with a bayonet.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -110,7 +110,7 @@
   name: Kardashev-Mosin
   parent: WeaponSniperMosin
   id: WeaponSniperMosinEmpty
-  description: Produced almost exclusively by the Syndicate based off of old Solarian designs. It excels at hunting and taking down wild animals, or perhaps fighting an endless trench war. Also comes with a bayonet.
+  description: Produced almost exclusively by the Syndicate based off of old Solarian designs, firing .30 rifle rounds. It excels at hunting and taking down wild animals, or perhaps fighting an endless trench war. Also comes with a bayonet.
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -126,7 +126,7 @@
   name: Hristov
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponSniperHristov
-  description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
+  description: A portable anti-materiel rifle used both by NanoTrasen and the Syndicate. You're not gonna see this in some random security officer's hand though. Uses .60 anti-materiel ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
@@ -158,7 +158,7 @@
   name: musket
   parent: [ BaseWeaponSniper, BaseGunWieldable, BaseMinorContraband ]
   id: Musket
-  description: An extremely ancient Solarian rifle design. This should have been in a museum centuries before you were born. Unsurprisingly enough, uses musket cartridges and nothing else. # Delta V - swapping to our crafted musket ammo
+  description: An extremely ancient rifle design originating from Earth. This should have been in a museum centuries before you were born. Unsurprisingly enough, uses musket cartridges. # Delta V - swapping to our crafted musket ammo
   components:
   - type: Sharp
   - type: Item
