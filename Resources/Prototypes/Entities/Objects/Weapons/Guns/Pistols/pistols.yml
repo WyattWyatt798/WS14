@@ -323,7 +323,7 @@
   name: mk 58
   parent: WeaponPistolMk58
   id: WeaponPistolMk58Security
-  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo. #Atlas 14 change. It's a fucking MK58. MK58s are probably considered dogshit by almost everyone apparently so it's painfully obvious that a Mk58 is a security weapon. Ok tedtalk over
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo. #Atlas 14 change. It's a fucking MK58. MK58s are considered dogshit by almost everyone apparently so it's painfully obvious that a Mk58 is a security weapon. Ok tedtalk over
   suffix: Security Loadouts
   components:
   - type: GuideHelp
