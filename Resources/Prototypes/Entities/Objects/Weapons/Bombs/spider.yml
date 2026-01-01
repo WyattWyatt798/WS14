@@ -1,7 +1,7 @@
 - type: entity
   name: spider clan charge
-  description: A modified C-4 charge supplied to you by the Spider Clan. Its explosive power has been juiced up, but only works in one specific area.
-  # not actually modified C-4! oh the horror!
+  description: An explosive device supplied to the many Space Ninjas working under the Spider Clan. While extremely powerful in comparison to a standard plantable bomb like C4, it can only be planted and detonated in a certain area.
+  # Wyattstation/Atlas 14 description change.
   parent: BaseItem
   id: SpiderCharge
   components:
