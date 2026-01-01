@@ -2,7 +2,7 @@
   parent: [ SmokeGrenade , BaseSyndicateContraband ]
   id: PeaceGasGrenade
   name: peace gas grenade
-  description: Prevents people from harming each other and sleeps them, spreads an okay area and lasts around 8 seconds.
+  description: Simple grenade containing Pax and Chloral Hydrate. While you won't fall asleep immediately, you won't be able to retaliate against your attacker if you get hit by this.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
@@ -20,7 +20,7 @@
   parent: [ SmokeGrenade , BaseSyndicateContraband ]
   id: PolyacidGasGrenade
   name: polyacid gas grenade
-  description: Melts through people like butter, Stuff spreads VERY far and lasts around 5 seconds.
+  description: A gas grenade containing Polytrinic Acid. This has gotta be a war crime, not like you care though.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
@@ -36,7 +36,7 @@
   parent: [ SmokeGrenade , BaseSyndicateContraband ]
   id: OmnizineGasGrenade
   name: omnizine gas grenade
-  description: Heals teammates not wearing internals or a hardsuit, doesnt spread very far and lasts around 8 seconds.
+  description: Very useful grenade containing Omnizine, but impractical to use in active combat. Heals anyone not wearing a sealed hardsuit and internals.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
