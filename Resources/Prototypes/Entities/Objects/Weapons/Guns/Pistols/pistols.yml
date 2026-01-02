@@ -86,7 +86,7 @@
   name: viper
   parent: [BaseWeaponPistol, BaseSyndicateContraband]
   id: WeaponPistolViper
-  description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century. Uses .35 auto ammo.
+  description: A small, easily concealable, but somewhat underpowered gun. It is typically issued by the Syndicate to almost all of their ranks, even those in commanding positions... and usually replaced with a different gun by those provided with a redspace uplink.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
@@ -154,8 +154,7 @@
   name: viper
   parent: WeaponPistolViper
   id: WeaponPistolViperSecurity
-  description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century.
-    Uses .35 auto ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+  description: A small, easily concealable, but somewhat underpowered gun. Uses .35 auto ammo. While typically seen as the standard-issue sidearm for the Syndicate, there appears to be a NanoTrasen logo next to this one's serial number.
   suffix: Security Loadouts
   components:
   - type: GuideHelp
@@ -324,8 +323,7 @@
   name: mk 58
   parent: WeaponPistolMk58
   id: WeaponPistolMk58Security
-  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
-    The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo. #Atlas 14 change. It's a fucking MK58. MK58s are considered dogshit by almost everyone apparently so it's painfully obvious that a Mk58 is a security weapon. Ok tedtalk over
   suffix: Security Loadouts
   components:
   - type: GuideHelp
@@ -407,7 +405,6 @@
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Security # the spaces in description are for formatting.
   description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
-    The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
   components:
   - type: GuideHelp
