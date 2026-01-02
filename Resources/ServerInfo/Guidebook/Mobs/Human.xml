@@ -2,10 +2,10 @@
   # Humans
 
   <Box>
-    <GuideEntityEmbed Entity="MobHumanDummy" Caption=""/>
+    <GuideEntityEmbed Entity="MobHumanDummy" Caption="John McHuman"/>
   </Box>
-
+  
   Depending on who you ask, humans are either unremarkable or the universal standard to which everything else is compared.
-  They have no special mechanics or notable attributes.
+  They aren't really that interesting or gimmicky, but highly adaptable compared to certain species. Breathes oxygen.
 
 </Document>
