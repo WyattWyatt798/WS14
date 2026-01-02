@@ -4,7 +4,7 @@
   <Box>
     <GuideEntityEmbed Entity="MobDiona" Caption=""/>
   </Box>
-
+  Treepeople.
   They can't wear shoes, but are not slowed by Kudzu.
   They get hungry and thirsty slower.
   Their "blood" is tree sap and can't be metabolised from Iron.
@@ -14,7 +14,7 @@
   but [color=#ffa500]50% more Heat damage, 20% more Shock damage, and they can easily
   catch on fire when receiving enough Heat damage from *any* source.[/color]
 
-  ## Make Like A Tree And Leave
+  ## Make Like A Tree And Leaf
   <Box>
     <GuideEntityEmbed Entity="FloraTree" Caption=""/>
   </Box>
