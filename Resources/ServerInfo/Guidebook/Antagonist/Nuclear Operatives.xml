@@ -11,7 +11,7 @@
     <GuideEntityEmbed Entity="PosterContrabandEnlistGorlex" Caption=""/>
   </Box>
 
-  You've just been chosen to be a nuclear operative for the [color=#ff0000]Syndicate[/color]. You have one goal, to blow up one of Nanotrasen's finest vessels with a nuclear fission explosive.
+  You've just been chosen to be a nuclear operative for the [color=#ff0000]Syndicate[/color]. You have one goal, to blow up one of NanoTrasen's finest stations with a nuclear fission device.
 
   ## Operatives
   Your team will be made up of several different roles, which are:
@@ -38,7 +38,7 @@
   </Box>
 
   ## Preparation
-  Each member in your squad has been given an [color=cyan]uplink[/color] to purchase everything you will need for the mission, similar to [textlink="traitors." link="Traitors"]
+  Each member in your squad has been given a [color=red]Redspace Uplink[/color] to purchase everything you will need for the mission, similar to [textlink="traitors." link="Traitors"]
 
   <Box>
     <GuideEntityEmbed Entity="BaseUplinkRadio40TC" Caption="your uplink"/>
@@ -69,7 +69,7 @@
   </Box>
 
   ## Getting to the Station
-  You've got the plan, you've got the gear. Now, execute.
+  You've got your shit in check, you've got your plan, and you've got you've got your gear. Now get to executing it!
 
   Grab a [bold]jetpack[/bold] from your armory and go with your other operatives to your [color=cyan]shuttle[/color].
   Among other things you may need, you'll find an [bold]IFF Computer[/bold] on the shuttle. It allows you to hide from other ships and mass scanners when [italic]Show IFF[/italic] and [italic]Show Vessel[/italic] are toggled off.
@@ -82,7 +82,7 @@
   </Box>
 
   ## The Nuke & Arming Procedure
-  You have a paper with the [color=cyan]nuclear authentication codes[/color] on your shuttle. [bold]Check to see if the nuke ID matches the one on your shuttle.[/bold] If it doesn't, you'll be arming the station's nuke instead.
+  You have a paper with the [color=cyan]nuclear authentication codes[/color] on your shuttle. [bold]Check to see if the Device's ID matches the one on your shuttle.[/bold] If it doesn't, you'll be arming the station's nuke instead.
 
   - Obtain the [bold]nuclear authentication disk[/bold] and insert it into the nuke.
   - Type in the [bold]nuclear authentication code[/bold] and press "[bold]E[/bold]" on the keypad to Enter.
@@ -100,16 +100,16 @@
   The [color=#00ff00]victor[/color] of the round is announced on the round end screen, as well as the scale of their victory.
 
   [bold][color=red]Syndicate Major Victory![/color][/bold]
-  - The nuke detonates on the station.
-  - The crew escapes on evac, but the nuke is still armed.
-  - The nuke is armed and delivered to Central Command on the evac shuttle.
+  - The station is destroyed by the resulting blast.
+  - The crew escapes on evac, but the Device is still ticking down.
+  - The Nuclear Fission Device is successfully armed and delivered to Central Command on the emergency evacuation shuttle.
 
   [bold][color=red]Syndicate Minor Victory[/color][/bold]
   - The crew escapes on evac, but every operative survives.
   - The crew escapes and some operatives die, but the crew loses the disk.
 
   [bold][color=#999999]Neutral Victory[/color][/bold]
-  - The nuke detonates off the station.
+  - The Nuclear Fission Device detonates offstation.
 
   [bold][color=green]Crew Minor Victory[/color][/bold]
   - The crew escapes on evac with the disk and some operatives die.
