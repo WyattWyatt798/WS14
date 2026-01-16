@@ -26,7 +26,7 @@
   name: "Emergency Response Team"
   keycode: '2'
   frequency: 1336
-  color: "#610d00"
+  color: "#1e81b0"
   longRange: true
   
 - type: radioChannel
