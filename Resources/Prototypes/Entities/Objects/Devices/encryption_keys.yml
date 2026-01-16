@@ -72,6 +72,7 @@
     - state: nano_label
 
     - type: entity
+  
   parent: [ EncryptionKey, BaseCentcommContraband ]
   id: EncryptionKeyERT
   name: NT Emergency Response Team encryption key
