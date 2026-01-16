@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCentComSOU
-  name: CentComm over-ear headset
+  name: Special Operations over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -17,7 +17,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCentComERT
-  name: CentComm over-ear headset
+  name: Emergency Response over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -29,4 +29,5 @@
     sprite: Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
     sprite: Clothing/Ears/Headsets/centcom.rsi
+
 
