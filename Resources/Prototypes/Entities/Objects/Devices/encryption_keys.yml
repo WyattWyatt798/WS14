@@ -55,7 +55,22 @@
     layers:
     - state: crypt_blue
     - state: nano_label
-
+    
+- type: entity
+  parent: [ EncryptionKey, BaseCentcommContraband ]
+  id: EncryptionKeyDeathsquad
+  name: NT Special Operations encryption key
+  description: An encryption key used by the dreaded Special Operations Unit.
+  components:
+  - type: EncryptionKey
+    channels:
+    - DeathSquadSpecific
+    defaultChannel: DeathSquadSpecific
+  - type: Sprite
+    layers:
+    - state: crypt_blue
+    - state: nano_label
+    
 - type: entity
   parent: [ EncryptionKey, BaseCentcommCommandContraband ]
   id: EncryptionKeyStationMaster
