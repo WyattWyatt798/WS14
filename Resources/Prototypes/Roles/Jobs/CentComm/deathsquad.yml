@@ -24,7 +24,7 @@
     back: ClothingBackpackDeathSquad
     mask: ClothingMaskGasDeathSquad
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComSOU #deathsquad-specific headset, it might look the same but it has their unique channel key.
     gloves: ClothingHandsGlovesSpecops
     outerClothing: ClothingOuterHardsuitDeathsquad
     shoes: ClothingShoesBootsMagAdv
