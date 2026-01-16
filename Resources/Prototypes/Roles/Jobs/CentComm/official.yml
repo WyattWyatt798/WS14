@@ -33,8 +33,8 @@
     id: CentcomPDA
     ears: ClothingHeadsetAltCentCom
     belt: WeaponPistolN1984
-    pocket1: BoxFolderBlack
-    pocket2: PenCentcom
+    pocket1: EncryptionKeyDeathsquad
+    pocket2: EncryptionKeyERT
 
 - type: startingGear
   id: CentcomPlasmamanGear

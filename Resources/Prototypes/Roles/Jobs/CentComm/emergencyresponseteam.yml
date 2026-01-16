@@ -28,7 +28,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolN1984
     pocket2: FlashlightSeclite
@@ -56,7 +56,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTLeader
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolN1984
     pocket2: FlashlightSeclite
@@ -84,7 +84,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTLeader
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltSecurityFilled
     pocket1: MagazineRifle
     pocket2: MagazineRifle
@@ -134,7 +134,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTChaplainPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltStorageWaistbag
     pocket1: Flare
     pocket2: DrinkWaterBottleFull
@@ -169,7 +169,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTChaplain
     id: ERTChaplainPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltStorageWaistbag
     pocket1: Flare
     pocket2: DrinkWaterBottleFull
@@ -218,7 +218,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTEngineerPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltChiefEngineerFilled
     pocket1: Flare
     pocket2: GasAnalyzer
@@ -250,7 +250,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTEngineer
     id: ERTEngineerPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltChiefEngineerFilled
     pocket1: Flare
     pocket2: GasAnalyzer
@@ -297,7 +297,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTSecurityPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58
     pocket2: FlashlightSeclite
@@ -325,7 +325,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTSecurity
     id: ERTSecurityPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58
     pocket2: FlashlightSeclite
@@ -353,7 +353,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTSecurity
     id: ERTSecurityPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltSecurityFilled
     pocket1: MagazineRifle
     pocket2: MagazineRifle
@@ -398,7 +398,7 @@
     gloves: ClothingHandsGlovesNitrile
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTMedicPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltMedicalFilled
     pocket1: Flare
   storage:
@@ -463,7 +463,7 @@
     back: ClothingBackpackERTJanitor
     shoes: ClothingShoesGaloshes
     head: ClothingHeadHelmetERTJanitor
-    gloves: ClothingHandsGlovesColorPurple
+    gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTJanitorPDA
     ears: ClothingHeadsetAltCentCom
@@ -492,7 +492,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTJanitor
     id: ERTJanitorPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltCentComERT
     belt: ClothingBeltJanitorFilled
     pocket1: Flare
   storage:
