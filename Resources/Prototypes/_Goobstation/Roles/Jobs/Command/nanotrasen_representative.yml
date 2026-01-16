@@ -1,7 +1,7 @@
-- type: job
+p- type: job
   id: NanotrasenRepresentative
   name: Corporate Liaison
-  description: "Represent your employer, send reports back to them on the station's situation, inform the heads of anything CentCom orders them to do."
+  description: "Sit around and do corpo things. Fax the everliving shit out of Central Command, inform the heads of Central Command orders."
   playTimeTracker: JobNanotrasenRepresentative
   requirements:
     - !type:CharacterDepartmentTimeRequirement

@@ -1,7 +1,7 @@
 - type: job
   id: BlueshieldOfficer
   name: Blueshield Officer
-  description: "Act as a bodyguard and advisor for Command and CentCom VIPs."
+  description: "Bodyguard the Heads of Staff and any Central Command Officials that happen to be aboard the station. Cry when you witness the Captain walk into the Supermatter."
   playTimeTracker: JobBlueshieldOfficer
   requirements:
     - !type:CharacterDepartmentTimeRequirement

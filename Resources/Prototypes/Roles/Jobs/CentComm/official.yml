@@ -24,6 +24,7 @@
   - CentcomPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomOfficial
+    back: ClothingBackpackSatchelNanorep
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatCentcom
     eyes: ClothingEyesGlassesSunglasses
