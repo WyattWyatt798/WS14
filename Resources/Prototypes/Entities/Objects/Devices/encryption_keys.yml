@@ -71,8 +71,7 @@
     - state: crypt_blue
     - state: nano_label
 
-    - type: entity
-  
+ - type: entity
   parent: [ EncryptionKey, BaseCentcommContraband ]
   id: EncryptionKeyERT
   name: NT Emergency Response Team encryption key
