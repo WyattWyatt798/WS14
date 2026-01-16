@@ -489,7 +489,7 @@
     back: ClothingBackpackERTJanitor
     shoes: ClothingShoesBootsMagSec
     mask: ClothingMaskGasERT
-    gloves: ClothingHandsGlovesColorPurple
+    gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTJanitor
     id: ERTJanitorPDA
     ears: ClothingHeadsetAltCentCom
