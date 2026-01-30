@@ -1,8 +1,8 @@
 uplink-peace-gas-grenade-name = Peace Gas Grenade
-uplink-peace-gas-grenade-desc = Prevents people from harming each other and sleeps them, spreads an okay area and lasts around 8 seconds.
+uplink-peace-gas-grenade-desc = A grenade containing Pax and Chloral Hydrate. Pacifies and sleeps people, if you want to have an easy way to take out your target.
 
 uplink-omnizine-gas-grenade-name = Omnizine Gas Grenade
-uplink-omnizine-gas-grenade-desc = Heals teammates not wearing internals, doesnt spread very far and lasts around 8ish seconds.
+uplink-omnizine-gas-grenade-desc = Perfect for the nukies' Corpsman! Contains Omnizine, unfortunately quite impractical to use during active combat due to requiring that you have an unsealed suit and no internals.
 
 uplink-polyacid-gas-grenade-name = Polyacid Gas Grenade
-uplink-polyacid-gas-grenade-desc = Melts through people like butter, Stuff spreads VERY far and lasts around 5 seconds.
+uplink-polyacid-gas-grenade-desc = A deadly grenade containing Polytrinic Acid. Get the fuck away from it once it starts to spread.
