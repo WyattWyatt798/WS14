@@ -6,7 +6,7 @@
   setPreference: false
   startingGear: CentcomGear
   icon: "JobIconNanotrasen"
-  supervisors: job-supervisors-hos
+  supervisors: "mostly yourself, depending on your role"
   canBeAntag: false
   accessGroups:
   - AllAccess
