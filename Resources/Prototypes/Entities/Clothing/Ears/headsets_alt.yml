@@ -205,3 +205,17 @@
   - type: Clothing
     sprite: Clothing/Ears/Headsets/security.rsi
 # Goobstation end
+
+- type: entity
+  parent: ClothingHeadsetAlt
+  id: ClothingHeadsetAltNTR
+  name: "Corporate Liaison Headset"
+  components:
+    - type: ContainerFill
+      containers:
+        key_slots:
+        - EncryptionKeyNTR
+    - type: Sprite
+      sprite: Clothing/Ears/Headsets/centcom.rsi  
+    - type: Clothing
+      sprite: Clothing/Ears/Headsets/centcom.rsi
