@@ -1,4 +1,4 @@
-p- type: job
+- type: job
   id: NanotrasenRepresentative
   name: Corporate Liaison
   description: "Sit around and do corpo things. Fax the everliving shit out of Central Command, inform the heads of Central Command orders."
@@ -14,9 +14,8 @@ p- type: job
         - ForeignerLight
         - Muted
     - !type:CharacterEmployerRequirement
-      inverted: false
       employers:
-      - NanoTrasen
+        - NanoTrasen
   weight: 20
   startingGear: NanotrasenRepresentativeGear
   icon: "JobIconNanotrasenRepresentative"
@@ -25,34 +24,34 @@ p- type: job
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:
-  - CentralCommand
-  - Brig
-  - External
-  - Cryogenics
-  - Maintenance
-  - Engineering
-  - Medical
-  - Research
-  - Command
-  - NanotrasenRepresentative
-  - Lawyer
-  - Cargo
+    - CentralCommand
+    - Brig
+    - External
+    - Cryogenics
+    - Maintenance
+    - Engineering
+    - Medical
+    - Research
+    - Command
+    - NanotrasenRepresentative
+    - Lawyer
+    - Cargo
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
-  - !type:AddComponentSpecial
-    components:
-      - type: CommandStaff
+    - !type:AddImplantSpecial
+      implants: [ MindShieldImplant ]
+    - !type:AddComponentSpecial
+      components:
+        - type: CommandStaff
   afterLoadoutSpecial:
-  - !type:ModifyEnvirosuitSpecial
-    charges: 8
-  - !type:ModifyEnvirohelmSpecial
-    powerCell: PowerCellHigh
+    - !type:ModifyEnvirosuitSpecial
+      charges: 8
+    - !type:ModifyEnvirohelmSpecial
+      powerCell: PowerCellHigh
 
 - type: startingGear
   id: NanotrasenRepresentativeGear
   subGear:
-  - NanotrasenRepresentativePlasmamanGear
+    - NanotrasenRepresentativePlasmamanGear
   equipment:
     shoes: ClothingShoesColorBlack
     id: CentcomPDA
