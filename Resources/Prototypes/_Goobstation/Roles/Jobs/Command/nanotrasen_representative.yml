@@ -8,15 +8,13 @@
       department: Command
       min: 54000 # 15 hours
     - !type:CharacterTraitRequirement
-      inverted: true
       traits:
         - Foreigner
         - ForeignerLight
         - Muted
     - !type:CharacterEmployerRequirement
-      inverted: true
       employers:
-      - Unemployed
+        - NanoTrasen
   weight: 20
   startingGear: NanotrasenRepresentativeGear
   icon: "JobIconNanotrasenRepresentative"
@@ -25,39 +23,29 @@
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:
-  - CentralCommand
-  - Brig
-  - External
-  - Cryogenics
-  - Maintenance
-  - Engineering
-  - Medical
-  - Research
-  - Command
-  - NanotrasenRepresentative
-  - Lawyer
-  - Cargo
+    - NanotrasenRepresentative
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
-  - !type:AddComponentSpecial
-    components:
-      - type: CommandStaff
+    - !type:AddImplantSpecial
+      implants: [ MindShieldImplant ]
+    - !type:AddComponentSpecial
+      components:
+        - type: CommandStaff
   afterLoadoutSpecial:
-  - !type:ModifyEnvirosuitSpecial
-    charges: 8
-  - !type:ModifyEnvirohelmSpecial
-    powerCell: PowerCellHigh
+    - !type:ModifyEnvirosuitSpecial
+      charges: 8
+    - !type:ModifyEnvirohelmSpecial
+      powerCell: PowerCellHigh
 
+# NTR starting gear
 - type: startingGear
   id: NanotrasenRepresentativeGear
   subGear:
-  - NanotrasenRepresentativePlasmamanGear
+    - NanotrasenRepresentativePlasmamanGear
   equipment:
     shoes: ClothingShoesColorBlack
     id: CentcomPDA
     jumpsuit: ClothingUniformJumpsuitNanotrasenRepresentative
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetNTR
     pocket1: UniqueNanorepLockerTeleporter
 
 - type: startingGear

@@ -1,12 +1,12 @@
 - type: job
   id: CentralCommandOfficial
-  name: job-name-centcomoff
-  description: job-description-centcomoff
+  name: "Central Command Official"
+  description: "Either you're the captain's boss or you're some random intern. Either way, expect a metric fuckton of paperwork."
   playTimeTracker: JobCentralCommandOfficial
   setPreference: false
   startingGear: CentcomGear
   icon: "JobIconNanotrasen"
-  supervisors: job-supervisors-hos
+  supervisors: "mostly yourself, depending on your role"
   canBeAntag: false
   accessGroups:
   - AllAccess
