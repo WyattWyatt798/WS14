@@ -23,7 +23,7 @@
 
 - type: radioChannel
   id: ERTSpecific
-  name: "Emergency Response Team"
+  name: "Emergency Response"
   keycode: '2'
   frequency: 1336
   color: "#1e81b0"

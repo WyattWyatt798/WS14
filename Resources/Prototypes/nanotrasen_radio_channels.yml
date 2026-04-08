@@ -1,0 +1,17 @@
+- type: radioChannel
+  id: DeathSquadSpecific
+  name: "Special Operations"
+  keycode: '1'
+  frequency: 1338
+  color: "#610d00"
+  # same as below
+  longRange: true
+
+  - type: radioChannel
+  id: ERTSpecific
+  name: "Emergency Response Team"
+  keycode: '2'
+  frequency: 1336
+  color: "#1e81b0"
+  # NT channels need to be longrange for obvious reasons lmao
+  longRange: true
