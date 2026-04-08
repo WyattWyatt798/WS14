@@ -1,3 +1,4 @@
+# Nanotrasen Representative job
 - type: job
   id: NanotrasenRepresentative
   name: Corporate Liaison
@@ -8,7 +9,6 @@
       department: Command
       min: 54000 # 15 hours
     - !type:CharacterTraitRequirement
-      inverted: true
       traits:
         - Foreigner
         - ForeignerLight
@@ -24,18 +24,7 @@
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:
-    - CentralCommand
-    - Brig
-    - External
-    - Cryogenics
-    - Maintenance
-    - Engineering
-    - Medical
-    - Research
-    - Command
     - NanotrasenRepresentative
-    - Lawyer
-    - Cargo
   special:
     - !type:AddImplantSpecial
       implants: [ MindShieldImplant ]
@@ -48,6 +37,7 @@
     - !type:ModifyEnvirohelmSpecial
       powerCell: PowerCellHigh
 
+# NTR starting gear
 - type: startingGear
   id: NanotrasenRepresentativeGear
   subGear:
@@ -56,7 +46,7 @@
     shoes: ClothingShoesColorBlack
     id: CentcomPDA
     jumpsuit: ClothingUniformJumpsuitNanotrasenRepresentative
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetNTR
     pocket1: UniqueNanorepLockerTeleporter
 
 - type: startingGear
