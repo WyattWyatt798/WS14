@@ -1,13 +1,13 @@
 - type: radioChannel
   id: Common
-  name: chat-radio-common
+  name: Common
   keycode: ";"
   frequency: 1459
   color: "#2cdb2c"
 
 - type: radioChannel
   id: CentCom
-  name: chat-radio-centcom
+  name: CentComm
   keycode: 'y'
   frequency: 1337
   color: "#2681a5"
@@ -31,56 +31,56 @@
 
 - type: radioChannel
   id: Command
-  name: chat-radio-command
+  name: Command
   keycode: 'c'
   frequency: 1353
   color: "#fcdf03"
 
 - type: radioChannel
   id: Engineering
-  name: chat-radio-engineering
+  name: Engineering
   keycode: 'e'
   frequency: 1357
   color: "#ff733c"
 
 - type: radioChannel
   id: Medical
-  name: chat-radio-medical
+  name: Medical
   keycode: 'm'
   frequency: 1355
   color: "#57b8f0"
 
 - type: radioChannel
   id: Science
-  name: chat-radio-science
+  name: Science
   keycode: 'n'
   frequency: 1351
   color: "#cd7ccd"
 
 - type: radioChannel
   id: Security
-  name: chat-radio-security
+  name: Security
   keycode: 's'
   frequency: 1359
   color: "#ff4242"
 
 - type: radioChannel
   id: Service
-  name: chat-radio-service
+  name: Service
   keycode: 'v'
   frequency: 1349
   color: "#539c00"
 
 - type: radioChannel
   id: Supply
-  name: chat-radio-supply
+  name: Supply
   keycode: 'u'
   frequency: 1347
   color: "#b48b57"
 
 - type: radioChannel
   id: Syndicate
-  name: chat-radio-syndicate
+  name: Syndicate
   keycode: 't'
   frequency: 1213
   color: "#8f4a4b"
@@ -88,7 +88,7 @@
 
 - type: radioChannel
   id: Handheld
-  name: chat-radio-handheld
+  name: Handheld
   frequency: 1330
   color: "#967101"
   longRange: true
@@ -96,7 +96,7 @@
 
 - type: radioChannel
   id: Binary
-  name: chat-radio-binary
+  name: Binary
   keycode: 'b'
   frequency: 1001
   color: "#5ed7aa"
@@ -104,7 +104,7 @@
 
 - type: radioChannel
   id: Freelance
-  name: chat-radio-freelance
+  name: Freelance
   keycode: 'f'
   frequency: 1984
   color: "#f6ce64"
