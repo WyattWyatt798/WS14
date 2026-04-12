@@ -1,6 +1,6 @@
 - type: entity
   parent: [ EncryptionKey, BaseCentcommContraband ]
-  id: EncryptionKeyDeathSquad
+  id: EncryptionKeyDeathSquad # Comms for the guys that Sectoral Command sends in when they REALLY want something dead and a plain old Emergency Response Team isn't gonna do it
   name: NT Special Operations encryption key
   description: An encryption key used by the dreaded Special Operations Division.
   components:
@@ -15,7 +15,7 @@
 
 - type: entity
   parent: [ EncryptionKey, BaseCentcommContraband ]
-  id: EncryptionKeyERT
+  id: EncryptionKeyERT # corpos can protect and serve too (they do it for different reasons though)
   name: NT Emergency Response Team encryption key
   description: An encryption key used by Emergency Response Teams.
   components:
@@ -30,8 +30,8 @@
 
 - type: entity
   parent: [ EncryptionKey, BaseCentcommContraband ]
-  id: EncryptionKeyDignitaryMagistrate
-  name: Oversight encryption key
+  id: EncryptionKeyDignitaryMagistrate # Magistrate's job is to make sure Sec and Command aren't being shitbags and are following Space Law and the Standard Operating Procedures specifically, not the other departments, therefore they only get Security and Command.
+  name: "Magistrate's oversight encryption key"
   description: "An encryption key used by the unfortunate employees of the Dignitary department, who have to deal with a lot of paperwork and a lot of bullshit. This one's for the Magistrate."
   components:
   - type: EncryptionKey
@@ -48,8 +48,8 @@
 
 - type: entity
   parent: [ EncryptionKey, BaseCentcommContraband ]
-  id: EncryptionKeyDignitaryBlueshield
-  name: Oversight encryption key
+  id: EncryptionKeyDignitaryBlueshield # Blueshield is NOT security. They are bodyguards for Dignitary + Command staff, not a Security officer replacement.
+  name: "Blueshield Officer's oversight encryption key"
   description: "An encryption key used by the unfortunate employees of the Dignitary department, who have to deal with a lot of paperwork and a lot of bullshit. This one's for the Blueshield Officer."
   components:
   - type: EncryptionKey
@@ -66,18 +66,25 @@
 
 - type: entity
   parent: [ EncryptionKey, BaseCentcommContraband ]
-  id: EncryptionKeyDignitaryRepresentative
-  name: Oversight encryption key
+  id: EncryptionKeyDignitaryRepresentative # Needs to be a "budget" master encryption key since the NTR has to review *all* departments on station and update SC on stuff and relay orders from SC, not just one or two
+  name: "Liaison's oversight encryption key"
   description: "An encryption key used by the unfortunate employees of the Dignitary department, who have to deal with a lot of paperwork and a lot of bullshit. This one's for the Corporate Liaison."
   components:
   - type: EncryptionKey
     channels:
-    - Dignitary
-    - Command
-    - Medical
+    - Dignitary # Atlas 14 - Unites the Dignitary department and seperates them from SectCom
     - Common
+    - Command
+    - Engineering
+    - Justice # Delta V - adds Justice department
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    - Prison # DeltaV
     defaultChannel: Dignitary
   - type: Sprite
     layers:
     - state: crypt_blue
-    - state: nano_label    
+    - state: nano_label
