@@ -15,7 +15,7 @@
   parent: EncryptionKey
   id: EncryptionKeyCommon
   name: common encryption key
-  description: An encryption key used by anyone.
+  description: "This key is used by just about anyone employed on NanoTrasen stations. Exclusive to each sector, you're not gonna hear another sector of space talking with this."
   components:
   - type: EncryptionKey
     channels:
@@ -30,7 +30,7 @@
   parent: [ EncryptionKey, BaseCargoContraband ]
   id: EncryptionKeyCargo
   name: logistics encryption key # DeltaV - Logistics Department replacing Cargo
-  description: An encryption key used by supply employees.
+  description: "An encryption key used by logistics employees. It's for the guys who have to push crates and deliver mail."
   components:
   - type: EncryptionKey
     channels:
@@ -44,8 +44,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCentcommContraband ]
   id: EncryptionKeyCentCom
-  name: central command encryption key
-  description: An encryption key used by captain's bosses.
+  name: sectoral command encryption key
+  description: "An encryption key used by the Captain's bosses, and more indirectly the entire station's bosses."
   components:
   - type: EncryptionKey
     channels:
@@ -60,7 +60,7 @@
   parent: [ EncryptionKey, BaseCentcommCommandContraband ]
   id: EncryptionKeyStationMaster
   name: station master encryption key
-  description: An encryption key used by station's bosses.
+  description: "An encryption used by the Captain and the Head of Personnel... Most of the time."
   components:
   - type: EncryptionKey
     channels:
@@ -83,8 +83,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCommandContraband ]
   id: EncryptionKeyCommand
-  name: command encryption key
-  description: An encryption key used by crew's bosses.
+  name: station command encryption key
+  description: "An encryption key used by the Heads of Staff. Usually sought out by hostiles for good reason."
   components:
   - type: EncryptionKey
     channels:
@@ -99,7 +99,7 @@
   parent: [ EncryptionKey, BaseEngineeringContraband ]
   id: EncryptionKeyEngineering
   name: engineering encryption key
-  description: An encryption key used by the engineers.
+  description: "An encryption key used by the engineers to talk while the entire station violently explodes around them."
   components:
   - type: EncryptionKey
     channels:
@@ -145,7 +145,7 @@
   parent: [ EncryptionKey, BaseScienceContraband ]
   id: EncryptionKeyScience
   name: epistemics encryption key # DeltaV - Epistemics Department replacing Science
-  description: An encryption key used by scientists. Maybe it is plasmaproof?
+  description: "An encryption key used by scientists. Surprisingly plasmaproof!"
   components:
   - type: EncryptionKey
     channels:
@@ -160,7 +160,7 @@
   parent: [ EncryptionKey, BaseScienceContraband ]
   id: EncryptionKeyRobo
   name: robotech encryption key
-  description: An encryption key used by robototech engineers. Maybe it has a LAH-6000 on it?
+  description: "An encryption key used by roboticists. Does not come with a LAH-6000."
   components:
   - type: EncryptionKey
     channels:
@@ -206,7 +206,7 @@
   parent: [ EncryptionKey, BaseSyndicateContraband ]
   id: EncryptionKeySyndie
   name: blood-red encryption key
-  description: An encryption key used by... wait... Who is the owner of this chip?
+  description: "An encryption key used by the Syndicate. Looks very evil, probably used to discuss how to destroy the station."
   components:
   - type: EncryptionKey
     channels:
@@ -240,7 +240,7 @@
   parent: EncryptionKey
   id: EncryptionKeyBinarySyndicate
   name: binary translator key
-  description: A syndicate encryption key that translates binary signals used by silicons.
+  description: "A syndicate encryption key that translates binary signals used by silicons. Probably shouldn't start talking on it without some kind of voice changer, though."
   components:
   - type: EncryptionKey
     channels:
