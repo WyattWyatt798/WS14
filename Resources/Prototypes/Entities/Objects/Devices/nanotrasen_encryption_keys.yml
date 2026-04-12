@@ -88,3 +88,18 @@
     layers:
     - state: crypt_blue
     - state: nano_label
+
+  - type: entity
+  parent: [ EncryptionKey, BaseCentcommContraband ]
+  id: EncryptionKeyDignitaryGeneric # completely generic Joe Schmoe dignitary key, comes with quite literally nothing else besides the Dignitary channel
+  name: "Generic oversight encryption key"
+  description: "An encryption key used by the unfortunate employees of the Dignitary department, who have to deal with a lot of paperwork and a lot of bullshit. This one's completely generic and just has the Dignitary channel loaded onto it."
+  components:
+  - type: EncryptionKey
+    channels:
+    - Dignitary
+    defaultChannel: Dignitary
+  - type: Sprite
+    layers:
+    - state: crypt_blue
+    - state: nano_label
