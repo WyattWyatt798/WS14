@@ -59,7 +59,7 @@
     shoes: ClothingShoesLeather
     gloves: ClothingHandsGlovesColorWhite
     id: CentcomPDA
-    ears: ClothingHeadsetMagistrate
+    ears: ClothingHeadsetDignitary # Unites Dignitary roles (BSO, CL/NTR, Magistrate) into one department kinda. Also removes their SectComm channel so an unrobust Mag/BSO/CL doesn't result in comms of that sort being compromised, this is largely redundant with the addition of specific comms for Deathsquad and ERT though
     pocket1: UniqueMagistrateLockerTeleporter
 
 - type: startingGear
