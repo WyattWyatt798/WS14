@@ -2,7 +2,7 @@
   name: bang, ded
   parent: BaseWeaponPistol
   id: WeaponPistolDebug
-  description: ded
+  description: "Weapon of mass destruction. Remind the Emergency Response Teams and the Death Squadrons that they, too, are mortals."
   suffix: DEBUG
   components:
   - type: Tag
@@ -87,7 +87,7 @@
   name: bang stick gibber
   parent: BaseItem
   id: MeleeDebugGib
-  description: hit hard ye
+  description: "Either you are the gib monster, someone who got this from a christmas gift, or an admin. Either way, it's time to kill and destroy."
   suffix: DEBUG
   components:
   - type: Tag
