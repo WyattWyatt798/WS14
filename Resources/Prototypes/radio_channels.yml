@@ -7,7 +7,7 @@
 
 - type: radioChannel
   id: CentCom
-  name: Sectoral Command
+  name: "Sectoral Command"
   keycode: 'y'
   frequency: 1337
   color: "#2681a5"
@@ -31,7 +31,7 @@
 
 - type: radioChannel
   id: Command
-  name: Command
+  name: "Station Command"
   keycode: 'c'
   frequency: 1353
   color: "#fcdf03"
@@ -73,7 +73,7 @@
 
 - type: radioChannel
   id: Supply
-  name: Supply
+  name: Logistics
   keycode: 'u'
   frequency: 1347
   color: "#b48b57"
@@ -88,7 +88,7 @@
 
 - type: radioChannel
   id: Handheld
-  name: Sectoral Common
+  name: Public
   keycode: 'p'
   frequency: 1330
   color: "#967101"
