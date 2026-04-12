@@ -88,7 +88,7 @@
 
 - type: radioChannel
   id: Handheld
-  name: Public
+  name: Sector Public
   keycode: 'p'
   frequency: 1330
   color: "#967101"
