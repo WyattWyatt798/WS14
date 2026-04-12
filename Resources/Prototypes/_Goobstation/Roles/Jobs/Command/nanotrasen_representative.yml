@@ -1,7 +1,7 @@
 - type: job
   id: NanotrasenRepresentative
   name: Corporate Liaison
-  description: "Sit around and do corpo things. Fax the everliving shit out of Central Command, inform the heads of Central Command orders."
+  description: "Sit around and do corpo things. Fax the everliving shit out of Sectoral Command, inform the heads of SectComm orders."
   playTimeTracker: JobNanotrasenRepresentative
   requirements:
     - !type:CharacterDepartmentTimeRequirement
