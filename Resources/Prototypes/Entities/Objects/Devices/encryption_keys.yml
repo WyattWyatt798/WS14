@@ -15,7 +15,7 @@
   parent: EncryptionKey
   id: EncryptionKeyCommon
   name: common encryption key
-  description: "This key is used by just about anyone employed on NanoTrasen stations. Exclusive to each sector, you're not gonna hear another sector of space talking with this."
+  description: "This key is used mostly by NanoTrasen employees, though some hostiles will want to get their hands on it too. Exclusive to each sector, you're not gonna hear another sector of space talking with this."
   components:
   - type: EncryptionKey
     channels:
@@ -175,7 +175,7 @@
   parent: [ EncryptionKey, BaseSecurityLawyerContraband ]
   id: EncryptionKeySecurity
   name: security encryption key
-  description: An encryption key used by security.
+  description: "An encryption key used by shitcurity- Oops, I meant to say security. Greytiders and nuclear operatives will absolutely want their grubby little hands on this."
   components:
   - type: EncryptionKey
     channels:
