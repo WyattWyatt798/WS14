@@ -27,3 +27,21 @@
     layers:
     - state: crypt_blue
     - state: nano_label
+
+- type: entity
+  parent: [ EncryptionKey, BaseCentcommContraband ]
+  id: EncryptionKeyDignitary
+  name: Oversight encryption key
+  description: "An encryption key used by the unfortunate employees of the Dignitary department, who have to deal with a lot of paperwork and a lot of bullshit."
+  components:
+  - type: EncryptionKey
+    channels:
+    - Dignitary
+    - Command
+    - Security
+    - Common
+    defaultChannel: Dignitary
+  - type: Sprite
+    layers:
+    - state: crypt_blue
+    - state: nano_label
